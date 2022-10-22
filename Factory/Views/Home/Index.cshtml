@@ -23,7 +23,7 @@
   <p>There are no Machines.</p>
 }
 <ul>
-  @foreach(var machine in ViewBag.Machine)
+  @foreach(var machine in ViewBag.Machines)
   {
   <li>@Html.ActionLink($"{machine.MachineName}", "Details", "Machines", new { id = machine.MachineId })</li>
   }
