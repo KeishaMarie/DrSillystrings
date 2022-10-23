@@ -1,9 +1,9 @@
 a, a:visited, a:hover{
-  color: rgb(56, 183, 212);
+  color: rgb(5, 5, 5);
 }
 
 a.btn, a.btn-primary{
-  color:white;
+  color:rgb(5, 5, 5);
 }
 
 ul{
@@ -21,7 +21,7 @@ ul{
   width: 150%;
   height: 5vh;
   padding-left: 0.5em;
-  background-color: #380779;
+  background-color: #297c39;
 }
 
 #renderbody{
@@ -38,6 +38,7 @@ ul{
   top: 95vh;
   left: 0px;
   padding-left: 0.5em;
-  background-color: #380779;
+  background-color: #297c39;
   height: 5vh;
+  color: rgb(203, 211, 213);
 }

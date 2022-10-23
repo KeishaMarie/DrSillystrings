@@ -4,7 +4,7 @@
 
 @model Factory.Models.Engineer;
 
-<h1>Engineer Details</h1>
+<h2>Engineer Details</h2>
 <hr />
 <h3>@Html.DisplayNameFor(model => model.EngineerName):@Html.DisplayFor(model => model.EngineerName) </h3>
 
@@ -26,8 +26,8 @@
     }
   }
   </ul>
-  <p>@Html.ActionLink("Add a Machine", "AddMachine", new { id = Model.EngineerId })</p>
+<p>@Html.ActionLink("Add a Machine", "AddMachine", new { id = Model.EngineerId })</p>
 <hr />
-<h4>@Html.ActionLink("Back to Engineer List", "Index")</h4>
-<h4>@Html.ActionLink("Edit This Engineer", "Edit", new { id = Model.EngineerId })</h4>
-<h4>@Html.ActionLink("Delete This Engineer", "Delete", new { id = Model.EngineerId })</h4>
+
+<p>@Html.ActionLink("Edit This Engineer", "Edit", new { id = Model.EngineerId })</p>
+<p>@Html.ActionLink("Delete This Engineer", "Delete", new { id = Model.EngineerId })</p>

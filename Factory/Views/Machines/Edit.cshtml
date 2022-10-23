@@ -4,7 +4,7 @@
 
 @model Factory.Models.Machine
 
-<h1>Edit</h1>
+<h2>Edit</h2>
 <h3>Edit this machine: @Html.DisplayFor(model => model.MachineName)</h3>
 
 @using (Html.BeginForm())
@@ -16,5 +16,3 @@
 
   <input type="submit" value="Save" />
 }
-
-<p>@Html.ActionLink("Back to List", "Index")</p>
