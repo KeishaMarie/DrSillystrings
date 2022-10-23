@@ -14,7 +14,7 @@
 * MySql
 * JavaScript
 
-## This is an MVC application which allows a user to track Engineers and Machines using a many-to-many relationship. You are able to add Engineers and Machines individually, assign engineers to repair specific machines and edit details on both engineers and machines including delete and reassignment. 
+#### This is an MVC application which allows a user to track Engineers and Machines using a many-to-many relationship. You are able to add Engineers and Machines individually, assign engineers to repair specific machines and edit details on both engineers and machines including delete and reassignment. 
 
 
 ## Setup/Installation Requirements
