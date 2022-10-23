@@ -1,5 +1,5 @@
 a, a:visited, a:hover{
-  color: black;
+  color: rgb(56, 183, 212);
 }
 
 a.btn, a.btn-primary{
@@ -21,7 +21,7 @@ ul{
   width: 150%;
   height: 5vh;
   padding-left: 0.5em;
-  background-color: #511a98;
+  background-color: #380779;
 }
 
 #renderbody{
@@ -38,6 +38,6 @@ ul{
   top: 95vh;
   left: 0px;
   padding-left: 0.5em;
-  background-color: #511a98;
+  background-color: #380779;
   height: 5vh;
 }
